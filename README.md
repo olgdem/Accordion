@@ -7,7 +7,7 @@ It was my task in RollingScopes school to make adaptive accordion only with HTML
 
 ![accordion view](/accordion-view.gif)
 
-# While making this project I mastered:
+### While making this project I mastered:
  - inputs, checkbox, radio buttons
  - hover and nesting levels
  - icons and Font Awesome
