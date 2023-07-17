@@ -24,12 +24,14 @@ body {
     border-top-left-radius: 10px;
     width: 1200px;
     height: 1400px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 20px 20px;
 }
 
 h1 {
+    max-width: 700px;
     text-align: left;
-    margin-left: 21%;
+    margin: 0 auto;
     margin-bottom: 5px;
 }
 
@@ -113,6 +115,138 @@ h1 {
 .faq-input:checked+.faq-title:after {
     transform: rotate(45deg);
 }
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+
+    body {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .container {
+        width: 920px;
+    }
+
+    body {
+        width: 100%;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 20px 0;
+    }
+
+    body {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .faq {
+        width: 750px;
+        margin: 0 auto;
+}
+
+h1 {
+    width: 750px;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 550px;
+    }
+
+    body {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        width: 420px;
+    }
+
+    body {
+        width: 100%;
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 380px;
+        padding: 20px 10px;
+    }
+
+    body {
+        width: 100%;
+        font-size: 23px;
+    }
+
+    h1 {
+        width: 340px;
+        margin: 0;
+    }
+
+    .faq-title {
+        padding: 10px 0px;
+    }
+
+    .faq-title:after {
+        right: 18px;
+    }
+
+    .faq {
+        width: 360px;
+        margin: 0;
+}
+}
+
+
+
+@media screen and (max-width: 360px) {
+    .container {
+        width: 360px;
+    }
+
+    body {
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .faq-title {
+        padding: 10px 0px;
+    }
+
+    .faq-title:after {
+        right: 8px;
+    }
+
+    .faq {
+        width: 340px;
+        margin: 0;
+}
+
+h1 {
+    width: 340px;
+    margin: 0;
+}
+}
+
+
+
+    
+
 
 
 
